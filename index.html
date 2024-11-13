@@ -6,7 +6,6 @@
     <title>Unity WebGL Player | polyrun</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
-    
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
@@ -58,11 +57,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/builds.loader.js";
+      var loaderUrl = buildUrl + "/buildv2.loader.js";
       var config = {
-        dataUrl: buildUrl + "/builds.data",
-        frameworkUrl: buildUrl + "/builds.framework.js",
-        codeUrl: buildUrl + "/builds.wasm",
+        dataUrl: buildUrl + "/buildv2.data",
+        frameworkUrl: buildUrl + "/buildv2.framework.js",
+        codeUrl: buildUrl + "/buildv2.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "polyrun",
